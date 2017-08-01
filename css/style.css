@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #3399cc;
+}
+h1 {
+    padding-left: 350px;
+    font-size: 20px;
+    color: white;
+}
+h2 {
+   padding-left: 350px;
+   font-size: 15px;
+   color: white
+}
+ul {
+    margin: 0;
+    text-align: center;
+}
+div {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid white;
+    margin: -2px;
+    margin-top: 2px;
+    height: 100px;
+    color: white;
+    cursor: pointer;
+    transition: all .1s ease-in;
+}
+ul:hover div:not(:hover) {
+  opacity: 0.5;
+}
+li {
+    display: inline-block;
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+}
+i {
+    opacity: 0.5;
+    padding: 10px;
+}
+.city1 {
+    width: 26%;
+}
+.city2 {
+    width: 13%;
+    vertical-align: top;
+    background-color: #33cccc;
+    font-size: large;
+}
+.city3 {
+    width: 13%;
+    text-align:justify;
+    display:inline-block;
+    text-align: center;
+    vertical-align:top;
+    background-color: #996699;
+    }
+.city4 {
+    width: 13%;
+    background-color: #c24747;
+}
+.city5 {
+    width: 13%;
+    background-color: #e2674a;
+}
+.city6 {
+    width: 13%;
+    background-color: #ffcc66;
+}
+.city7 {
+    width: 13%;
+    background-color: #99cc99;
+}
+.city8 {
+    width: 13%;
+    background-color: #669999;
+}
+.city9 {
+    width: 26%;
+    vertical-align: top;
+    background-color: #cc6699;
+}
+.city10 {
+    width: 13%;
+    background-color: #339966;
+}
+.city11 {
+    width: 52%;
+    margin-left: -7px;
+    background-color: #666699;
+}
